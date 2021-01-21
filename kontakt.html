@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale= 1,0">
+    <script src="javascript.js"></script>
+    <title>>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <a href="index.html">Hem</a>
+        <a href="CV.html">CV</a>
+        <a href="Blogg.html">Blogg</a>
+        <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    <h1>Kontakta mig!</h1>
+    <!---<form onsubmit="sendMessage(event)">-->
+    <form onsubmit=sendFeedback(event)>
+        <div>
+            <label for="name">Ditt namn</label>
+            <input type="text" id="name">
+        </div>
+
+        <br>
+
+        <div><label for="email">Din email</label>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <label for="message">Meddelande</label>
+        <textarea id="message" name="Meddelande" row="4" coles="50" autofocus></textarea>
+        </div>
+
+        <input type="submit" value="Skicka meddelandet!">
+        <div>
+
+
+
+
+
+
+
+    </form>
+    <h3 id="thankyouMessage">
+        </h>
+
+        <img src="DavidC.jpg">
+</body>
+
+</html>

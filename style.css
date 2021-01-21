@@ -1,0 +1,31 @@
+
+form {
+  
+   background-color:rgb(233, 167, 122);
+  
+} 
+.container{
+    flex-direction:column-reverse row
+
+}
+h2 { color: rgb(54, 54, 54); }
+h1, h2, h3 { font-family: sans-serif; }
+p {text-align: justify; }
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000
+}
+a:link, a:visited {
+    background-color:rgb(233, 167, 122);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:black;
+  }

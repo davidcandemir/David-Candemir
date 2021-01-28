@@ -34,7 +34,7 @@ div.d {
 
 h1 {
   text-align: center;
-  text-transform: uppercase;
+ 
   color: #000000;
   font-family: "Quicksand", sans-serif;
 }
@@ -45,12 +45,12 @@ h3 {
 
 a:hover,
 a:active {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(230, 203, 173);
 }
 
 a:link,
 a:visited {
-  background-color: rgb(233, 167, 122);
+  
   color: rgb(5, 5, 5);
   padding: 15px 25px;
   text-align: right;

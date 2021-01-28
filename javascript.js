@@ -6,3 +6,6 @@ console.log(formData.name.value);
 console.log(formData.email.value);
 console.log(formData.message.value);
 }
+
+
+document.getElementsByTagName('div')[0].focus();

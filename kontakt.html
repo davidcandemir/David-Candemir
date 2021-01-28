@@ -2,6 +2,13 @@
 <html lang="sv">
 
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale= 1,0">
+    <script src="javascript.js"></script>
+    <title>>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+
     <style>
         body {
             background-color: burlywood;
@@ -12,26 +19,21 @@
             background-color: rgb(230, 203, 173);
         }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale= 1,0">
-    <script src="javascript.js"></script>
-    <title>>Kontakt</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+    <div class="a">
         <a href="index.html">Hem</a>
         <a href="CV.html">CV</a>
         <a href="Blogg.html">Blogg</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
-
+ <div class="c">
     <h1>Kontakta mig!</h1>
-    <!---<form onsubmit="sendMessage(event)">-->
-    <form onsubmit=sendFeedback(event)>
+   
+        <form onsubmit=sendFeedback(event)>
         <div>
-            <label for="name">Ditt namn</label>
+             <label for="name">Ditt namn</label>
             <br>
             <input type="text" id="name">
         </div>
@@ -47,11 +49,10 @@
             <label for="message">Meddelande</label>
             <br>
             <input type="text" id="message">
-            <!--textarea id="message" name="Meddelande" row="4" coles="50" autofocus>
-            </textarea-->
+            
         </div>
         <br>
-        <div>
+        <div class="c">
             <input type="submit" id="submitButton" value="Skicka meddelandet! ">
         </div>
 
@@ -65,7 +66,7 @@
     </h3>
 
 
-    <!--img src=" DavidC.jpg " alt="Smiling David in blue shirt " width="350 " height="500 " style width="100%"-->
+  
 </body>
 
 </html>

@@ -6,9 +6,7 @@ div {
   text-align: center;
 }
 
-h2 {
-  color: rgb(54, 54, 54);
-}
+
 
 div.a {
  
@@ -32,10 +30,11 @@ div.d {
   font-family: "Quicksand", sans-serif;
 }
 
-h1 {
+h2
+ {
   text-align: center;
  
-  color: #000000;
+  color: rgb(54, 54, 54);
   font-family: "Quicksand", sans-serif;
 }
 
@@ -52,12 +51,12 @@ a:link,
 a:visited {
   
   color: rgb(5, 5, 5);
-  padding: 15px 25px;
+  padding: 15px 15px;
   text-align: right;
   align-items: center;
   text-decoration: none;
   display: inline-block;
-  letter-spacing: 2px;
+  /*letter-spacing: 0,1px;*/
   text-shadow: 2px 2px 10px black;
 }
 
